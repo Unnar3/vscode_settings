@@ -32,4 +32,42 @@
 },
 
 "editor.rulers": [110],
+
+"sync.gist": "0543056d9fc05c9efa92a3ef839fe5ed",
+"sync.lastUpload": "2017-03-18T10:33:23.098Z",
+"sync.autoDownload": false,
+"sync.autoUpload": false,
+"sync.lastDownload": "",
+"sync.version": 262,
+"sync.showSummary": true,
+"sync.forceDownload": false,
+"sync.anonymousGist": false,
+
+// Configure glob patterns for excluding files and folders.
+"files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true
+},
+
+// Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
+"python.pythonPath": "python3",
+
+// Controls if the editor should automatically format the line after typing
+"editor.formatOnType": true,
+
+"python.linting.pep8Enabled": true,
+
+"python.linting.pylintEnabled": false,
+
+"editor.minimap.enabled": true,
+"sync.host": "",
+"sync.pathPrefix": "",
+"window.zoomLevel": 0,
+"git.confirmSync": false,
+"files.associations": {
+    "*.log": "log"
+},
+"C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, BreakBeforeBraces: Allman, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: true, ColumnLimit: 110, TabWidth: 4, PointerAlignment: Middle, BinPackParameters: false, AllowAllParametersOfDeclarationOnNextLine: false, BinPackArguments: false, AlignTrailingComments: true, AlignConsecutiveAssignments: true, AllowShortBlocksOnASingleLine: false, AllowShortFunctionsOnASingleLine: Empty, AllowShortLoopsOnASingleLine: true}",
 }
