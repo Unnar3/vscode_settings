@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Nordic",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/src",
+                "/usr/include",
+                "/usr/local/include",
+                "/home/unnar/BlueAccess/nRF5_SDK_13.0.0"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": "${workspaceRoot}/symbols.db",
+                "path": [
+                    "${workspaceRoot}",
+                    "${workspaceRoot}/src",
+                    "/usr/include",
+                    "/usr/local/include",
+                    "/home/unnar/BlueAccess/nRF5_SDK_13.0.0"
+                ]
+            }
+        },
+        {
+            "name": "Linux",
+            "browse": {
+                "path": [
+                    "/usr/include/x86_64-linux-gnu/c++/6.2.0",
+                    "/usr/include/c++/6.2.0",
+                    "/usr/local/include",
+                    "/usr/lib/clang/4.0.0/include",
+                    "/usr/include/x86_64-linux-gnu",
+                    "/usr/include"
+                ]
+            }
+        }
+    ]
+}

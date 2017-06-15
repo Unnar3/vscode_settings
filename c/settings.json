@@ -1,0 +1,35 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // Coding style, currently supports: Visual Studio, LLVM, Google, Chromium, Mozilla, WebKit. Use "file" to load the style from a .clang-format file in the current or parent directory. Use "{key: value, ...}" to set specific parameters, e.g.: "{ BasedOnStyle: LLVM, IndentWidth: 8 }"
+"C_Cpp.clang_format_style": "file",
+"files.associations": {
+    "*.log": "log",
+    "rope": "cpp",
+    "array": "cpp",
+    "chrono": "cpp",
+    "functional": "cpp",
+    "ratio": "cpp",
+    "type_traits": "cpp",
+    "tuple": "cpp",
+    "utility": "cpp",
+    "future": "cpp",
+    "system_error": "cpp",
+    "hash_map": "cpp",
+    "hash_set": "cpp",
+    "algorithm": "cpp",
+    "random": "cpp",
+    "memory_resource": "cpp",
+    "scoped_allocator": "cpp",
+    "bitset": "cpp",
+    "*.inc": "cpp",
+    "*.gen": "cpp",
+    "thread": "cpp",
+    "*.tcc": "cpp",
+    "memory": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp",
+    "typeindex": "cpp"
+},
+
+"editor.rulers": [110],
+}
